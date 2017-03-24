@@ -15,6 +15,6 @@
          required="true" min="1.0" max="6.0" id="${name}"
          class="${hasError(model, name) ? 'error' : ''}"
          title="${g.message(error: findError(model, name)) }"
-         onchange="if(value<1){alert(name + ' value needs to be at least 1.0'); this.setAttribute('class', 'error');}"
+         onchange="validate(this);"
   />
 </div>
