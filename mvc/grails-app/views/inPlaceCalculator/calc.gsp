@@ -4,14 +4,7 @@
   <title>
     In-Place Calculator
   </title>
-  <script>
-  function validate(input) {
-    if(input.value < 1) {
-      alert(input.name + ' value needs to be at least 1.0');
-      input.setAttribute('class', 'error');
-    }
-  }
-</script>
+  <script src="/assets/form_validation.js"></script>
 </head>
 
 <body>
